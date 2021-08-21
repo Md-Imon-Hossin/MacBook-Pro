@@ -5,7 +5,7 @@
         const cost  = money;
         costOfId.innerText= cost;
     }
-    //function for totalprice
+    //function for totalPrice
     function totalPrice(){
         const totalPrice = document.getElementById('total-price');
         const bestPrice = document.getElementById('best-price');
@@ -55,8 +55,6 @@
         const paidDelivery = inputValue(20,'delivery-charge');
         totalPrice();
     })
-
-
 
     //event handler for coupon
     document.getElementById('apply-btn').addEventListener('click',function(){
